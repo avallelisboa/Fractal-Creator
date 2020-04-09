@@ -120,8 +120,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BitMap.h" />
-    <ClInclude Include="BitmapFile.h" />
-    <ClInclude Include="BitmapInfo.h" />
+    <ClInclude Include="BitmapFileHeader.h" />
+    <ClInclude Include="BitmapInfoHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

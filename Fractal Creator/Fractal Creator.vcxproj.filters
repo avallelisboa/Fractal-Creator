@@ -23,13 +23,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BitmapFile.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="BitMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="BitmapInfo.h">
+    <ClInclude Include="BitmapFileHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitmapInfoHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

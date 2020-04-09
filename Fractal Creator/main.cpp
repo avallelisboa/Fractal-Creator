@@ -1,9 +1,8 @@
 #include <iostream>
-#include "BitmapFile.h"
-#include "BitmapInfo.h"
-
+#include "BitMap.h"
 int main() {
-	std::cout << "Hello World!" << std::endl;
-	std::cin.get();
+	BitMap bitmap(800, 600);
+	bitmap.write("test.bmp");
+
 	return 0;
 }
